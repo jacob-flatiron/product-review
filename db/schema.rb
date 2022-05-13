@@ -18,8 +18,8 @@ ActiveRecord::Schema.define(version: 2022_05_12_172643) do
   end
 
   create_table "reviews", force: :cascade do |t|
-    t.integer "Product_id"
-    t.integer "User_id"
+    t.integer "product_id"
+    t.integer "user_id"
     t.integer "star_rating"
     t.string "comment"
   end

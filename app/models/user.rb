@@ -10,4 +10,3 @@ class User < ActiveRecord::Base
         product.reviews.destroy_all
     end
 end
-
